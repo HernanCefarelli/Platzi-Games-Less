@@ -7,7 +7,7 @@
 @fuente-base: 18px;
 
 .sombra-caja {
-    box-shadow: 0px 5px 10px 0px fade(@color-primario, 50%);
+    box-shadow: 0px 5px 10px 0px fade(@color-claro, 30%);
 }
 .Oswald {
     font-family: @fuente2;
@@ -24,8 +24,9 @@
 body{
     margin: 0;
     font-family: @fuente1;
-    color: @color-primario;
+    color: @color-claro;
     .fuente(@fuente-base);
+    background-color: @color-primario;
 }
 h1,h2,h3{
     margin: 0;

@@ -7,18 +7,23 @@
 
 .caja {
     max-width: 430px;
+    margin-bottom: 30px;
+    transition: .1s;
+    background-color: @color-secundario;
     .sombra-caja;
     &__contenido {
         padding: 25px;
-        background: @color-claro;
     }
     span {
-        color: @color-secundario;
+        color: @color-claro;
         .Oswald;
     }
     a {
         text-decoration: none;
         color: @color-variacion;
         .Oswald;
+    }
+    &:hover {
+        transform: translateY(-10px);
     }
     }
